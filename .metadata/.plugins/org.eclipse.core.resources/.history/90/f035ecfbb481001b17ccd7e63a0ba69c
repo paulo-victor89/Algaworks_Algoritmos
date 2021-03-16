@@ -1,0 +1,28 @@
+package Capitulo03;
+
+public class TipoLogico {
+
+	public static void main(String[] args) {
+		Boolean variavelVerdadeira = true;
+		System.out.println("Variavel verdadeira: " + variavelVerdadeira);
+
+		Boolean variavelFalsa = false;
+		System.out.println("Variavel falsa: " + variavelFalsa);
+
+		System.out.println("-----------------------------------------------");
+
+		/* Validação para verificar a maioridade e possibilidade para tirar a cnh */
+
+		Integer idade = 15;
+
+		Boolean podeTirarCnh = idade >= 18;
+
+		// System.out.println("Pode tirar a CNH ? "+ podeTirarCnh);
+
+		if (podeTirarCnh) {
+			System.out.println("Sim! Ela(e) pode tirar carteira");
+		}
+
+	}
+
+}

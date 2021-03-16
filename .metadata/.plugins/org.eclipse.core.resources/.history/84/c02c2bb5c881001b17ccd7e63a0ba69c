@@ -1,0 +1,24 @@
+package Capitulo03;
+
+public class Tiposprimitivos {
+
+	public static void main(String[] args) {
+
+		Byte variavelByte = 1;
+
+		Short variavelShort = 1;
+
+		Integer variavelInt = 1;
+
+		Long variavelLong = 1L;
+
+		Float variavelFloat = 1.0f;
+
+		Double variavelDouble = 1.0;
+
+		//Guarda somente um caracther ou digito
+		Character variavelCharacter = 'A';
+
+		Boolean variavelBoolean = true;
+	}
+}

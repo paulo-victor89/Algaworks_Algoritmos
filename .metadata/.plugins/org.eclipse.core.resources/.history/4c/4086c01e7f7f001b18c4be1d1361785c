@@ -1,0 +1,14 @@
+package Capitulo03;
+
+public class TiposNumericos {
+	public static void main(String[] args) {
+		Byte numeroByte = 1; // vai de -128 até 127
+
+		Short numeroShort = 1; // vai de -32768 até 32767
+
+		Integer numeroInteger = 1;
+
+		Long numeroLong = 1L;
+	}
+
+}

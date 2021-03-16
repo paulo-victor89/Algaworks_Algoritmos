@@ -1,0 +1,10 @@
+package Capitulo03;
+
+public class TipoTexto {
+
+	public static void main(String[] args) {
+		String nome = "Paulo Victor";
+
+		System.out.println("Olá " + nome + "!");
+	}
+}

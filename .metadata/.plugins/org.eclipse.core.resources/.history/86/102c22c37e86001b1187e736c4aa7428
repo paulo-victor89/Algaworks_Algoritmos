@@ -1,0 +1,24 @@
+package Capitulo03;
+
+import java.util.Scanner;
+
+public class Contantes {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Idade: ");
+		Integer idade = scanner.nextInt();
+
+		Boolean podeTirarCarteira = idade >= 18;
+		
+		if(podeTirarCarteira) {
+			System.out.println("Sim! pode tirar carteira");
+		}else {
+			System.out.println("Não! pode tirar carteira");
+		}
+		
+		scanner.close();
+	}
+
+}

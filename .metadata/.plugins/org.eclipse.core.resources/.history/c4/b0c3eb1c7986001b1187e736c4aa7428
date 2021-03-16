@@ -1,0 +1,13 @@
+package Capitulo03;
+
+import java.util.Scanner;
+
+public class AlterandoValorVariavel {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,39 @@
+package Capitulo03;
+
+import java.util.Scanner;
+
+public class TipoLogico {
+
+	public static void main(String[] args) {
+		Boolean variavelVerdadeira = true;
+		System.out.println("Variavel verdadeira: " + variavelVerdadeira);
+
+		Boolean variavelFalsa = false;
+		System.out.println("Variavel falsa: " + variavelFalsa);
+
+		System.out.println("-----------------------------------------------");
+
+		/* Validação para verificar a maioridade e possibilidade para tirar a cnh */
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Digite sua idade nome:");
+		String idade = scanner.nextLine();
+
+		scanner.close();
+
+		Integer idade1;
+
+		Boolean podeTirarCnh = idade1 >= 18;
+
+		// System.out.println("Pode tirar a CNH ? "+ podeTirarCnh);
+
+		if (podeTirarCnh) {
+			System.out.println("Sim! Ela(e) pode tirar CNH");
+		} else {
+			System.out.println("Não! Ela(e) não pode tirar CNH");
+
+		}
+
+	}
+
+}
